@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+    overflow-x: hidden;
+    
+}
+/* bota- voltar */
+/* bota- voltar */
+.bx {
+    position: absolute;
+    left: 3%;
+    padding: 1%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+.bx i:hover{
+color: red;
+}
+/* bota- voltar */
+
+/* roupas infantís */
+
+.roupas-infantis{
+    position: absolute;
+    top: 10%;
+    left: 3.5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:0 2%;
+    flex-wrap: wrap;
+    background-color: #ddd;
+    width: 92vw;
+
+}
+.roupas-infantis img{
+    position: relative;
+    left: 6%;
+    width: 160px;
+    height: 240px;
+    margin: 10px -40px;
+    box-shadow:  0px 0px 5px black;
+    border: 2px solid;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 100px;
+}
+.roupas-infantis p{
+position: relative;
+top: 25vh;
+left: -3.5%;
+display: flex;
+flex-direction: column;
+font-weight: 500;
+
+
+}
+.roupas-infantis p span{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 4%;
+
+}
+
+@media screen and (max-width:768px) {
+ 
+.roupas-infantis img{
+    position: relative;
+    left: 25.8%;
+    width: 200px;
+    height: 220px;
+    
+}
+.roupas-infantis p{
+    position: relative;
+    top: 20vh;
+    left: -21%;
+    padding-bottom: 2%;
+}
+}
+/* roupas infantís */
